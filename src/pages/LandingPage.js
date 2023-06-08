@@ -5,24 +5,37 @@ function LandingPage() {
     return (
         <ChakraProvider>
             <Box>
-                {/* Intro Section */}
-                <Box bg="gray.100">
-                    <Image src={banner} alt="Cover Image" />
-                    <Heading as="h1" fontSize="4xl" textAlign="center" mt={4}>
+                {/* Menu Bar */}
+                <Flex align="center" justify="space-between" p={4}>
+                    <Heading as="h1" fontSize="xl">
                         Artfinder
                     </Heading>
-                    <Text fontSize="xl" textAlign="center" my={4}>
-                        Discover and explore art from around the world.
-                    </Text>
-                    <Flex justify="center" mt={8}>
+                    <Flex>
+                        <Link href="#features" mr={4}>Features</Link>
+                        <Link href="#about">About</Link>
+                    </Flex>
+                </Flex>
+                {/* Intro Section */}
+                <Flex bg="gray.100">
+                    <Box flex="1">
+                        <Image src={banner} alt="Cover Image" h="100%" objectFit="cover" />
+                    </Box>
+
+                    <Box flex="1" p={8} textAlign="center" color="white">
+                        <Heading as="h1" fontSize="4xl" mb={4}>
+                            Artfinder
+                        </Heading>
+                        <Text fontSize="xl" mb={4}>
+                            Discover and explore art from around the world.
+                        </Text>
                         <Button colorScheme="blue" size="lg">
                             Explore Artfinder
                         </Button>
-                    </Flex>
-                </Box>
+                    </Box>
+                </Flex>
 
                 {/* Featured Section */}
-                <Box mt={16} mx={10}>
+                <Box mt={16} mx={10} id="features">
                     <Heading as="h2" fontSize="3xl" textAlign="center">
                         Featured
                     </Heading>
@@ -63,7 +76,7 @@ function LandingPage() {
                 </Box>
 
                 {/* About Section */}
-                <Box mt={16} mx={10}>
+                <Box mt={16} mx={10} id="about">
                     <Heading as="h2" fontSize="3xl" textAlign="center">
                         About
                     </Heading>
