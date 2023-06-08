@@ -15,12 +15,23 @@ function LandingPage() {
     const [aboutinfo, setAboutinfo] = useState([]);
     const [intro, setIntro] = useState([]);
     const [isMenuOpen, setMenuOpen] = useState(false);
+    const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
 
     useEffect(() => {
         // Simulate fetching features data from an API
         setFeatures(featuresData);
         setAboutinfo(aboutData);
         setIntro(introData);
+
+        const handleResize = () => {
+            setViewportWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
     }, []);
 
     return (
@@ -77,24 +88,45 @@ function LandingPage() {
                 )}
 
                 {/* Intro Section */}
-                <Flex bg="gray.100" position="relative" alignItems="center" minHeight="100vh">
-                    <Box position="absolute" top={0} left={0} width="100%" height="100%">
-                        <Image src={banner} alt="Cover Image" objectFit="cover" width="100%" height="100%"/>
-                    </Box>
+                {viewportWidth <= 480 ? (
+                    <Flex bg="gray.100" position="relative" alignItems="center" minHeight="100vh">
+                        <Box position="absolute" top={0} left={0} width="100%" height="100%">
+                            <Image src={banner} alt="Cover Image" objectFit="cover" width="100%" height="100%" />
+                        </Box>
 
-                    <Box position="relative" zIndex={1} p={12} textAlign="left" color="black" width="100%"
-                         maxWidth="40rem" mx="auto">
-                        <Heading as="h1" fontSize={{base: "4xl", md: "6xl"}} mb={4}>
-                            {introData[0].name}
-                        </Heading>
-                        <Text fontSize={{base: "xl", md: "2xl"}} mb={4} fontWeight="light">
-                            {introData[0].desc}
-                        </Text>
-                        <Button colorScheme="blue" size="lg" mt={12}>
-                            Explore Artfinder
-                        </Button>
-                    </Box>
-                </Flex>
+                        <Box position="relative" zIndex={1} p={12} textAlign="left" color="black"  bg="white" width="100%" maxWidth="40rem" mx="auto">
+                            <Heading as="h1" fontSize={{ base: "4xl", md: "6xl" }} mb={4}>
+                                {introData[0].name}
+                            </Heading>
+                            <Text fontSize={{ base: "xl", md: "2xl" }} mb={4} fontWeight="light">
+                                {introData[0].desc}
+                            </Text>
+                            <Button colorScheme="blue" size="lg" mt={12}>
+                                Explore Artfinder
+                            </Button>
+                        </Box>
+                    </Flex>
+                ) : (
+                    <Flex bg="gray.100" position="relative" alignItems="center" height="100vh">
+                        <Box position="absolute" top={0} left={0} width="100%" height="100%">
+                            <Image src={banner} alt="Cover Image" objectFit="cover" width="100%" height="100%" />
+                        </Box>
+
+                        <Box position="relative" zIndex={1} p={12} textAlign="left" color="black" width="40%" bg="white">
+                            <Heading as="h1" fontSize="4xl" mb={4}>
+                                {introData[0].name}
+                            </Heading>
+                            <Text fontSize="xl" mb={4} fontWeight="light">
+                                {introData[0].desc}
+                            </Text>
+                            <Button colorScheme="blue" size="lg" mt={12}>
+                                Explore Artfinder
+                            </Button>
+                        </Box>
+                    </Flex>
+                )}
+
+
 
                 {/* Featured Section */}
                 <Box mt={16} mx={10} id="features">
