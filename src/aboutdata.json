@@ -1,14 +1,14 @@
 [
   {
     "name": "Personal Journey",
-    "description": "During my UI/UX design course on Coursera, I experienced the frustration of finding galleries in unfamiliar locations without knowing their requirements. This inspired me to create Artfinder, a platform connecting art enthusiasts with galleries."
+    "description": "During my UI/UX design course on Coursera, I experienced the frustration of finding galleries in unfamiliar locations without knowing their requirements. This inspired me to create ArtFinderX, a platform connecting art enthusiasts with galleries."
   },
   {
     "name": "Project Details",
-    "description": "Artfinder served as my portfolio project at Holberton School. Over three weeks, I conducted research, planned, and implemented the project. I applied UI/UX design principles, front-end development, and project management skills to create user-centered designs and intuitive interfaces."
+    "description": "ArtFinderX served as my portfolio project at Holberton School. Over three weeks, I conducted research, planned, and implemented the project. I applied UI/UX design principles, front-end development, and project management skills to create user-centered designs and intuitive interfaces."
   },
   {
     "name": "The Future",
-    "description": "Artfinder's code base is on my Github as a private repository and I look forward to messages from collaborators who share the same vision and passion about this solution as I do "
+    "description": "ArtFinderX's code base is on my Github as a private repository and I look forward to messages from collaborators who share the same vision and passion about this solution as I do "
   }
 ]

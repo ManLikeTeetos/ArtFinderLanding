@@ -1,14 +1,27 @@
 [
   {
     "name": "Secure Authentication and Access",
-    "description": "Artfinder provides a secure authentication system that allows users to sign up and sign in as either agents or regular users. \n                                    With a focus on user privacy and data protection, Artfinder ensures a safe and reliable experience for all its members. \n                                    Whether you are an agent looking to showcase artworks or a user interested in discovering art, our authentication process guarantees the confidentiality of your personal information. \n                                    By creating an account, users gain access to exclusive features and personalized recommendations tailored to their preferences. \n                                    Join Artfinder today to explore a vast collection of art while enjoying the peace of mind that comes with our secure authentication system."
+    "description": "ArtFinderX provides a secure authentication system that allows users to sign up and sign in as either agents or regular users. \n
+    With a focus on user privacy and data protection, ArtFinderX ensures a safe and reliable experience for all its members. \n                                    
+    Whether you are an agent looking to showcase artworks or a user interested in discovering art, our authentication process guarantees the confidentiality of your personal information. \n                                    
+    By creating an account, users gain access to exclusive features and personalized recommendations tailored to their preferences. \n                                    
+    Join ArtFinderX today to explore a vast collection of art while enjoying the peace of mind that comes with our secure authentication system."
   },
   {
     "name": "Gallery Feature",
-    "description": "The Gallery feature in Artfinder offers a captivating visual journey through the world of art. Discover stunning images showcasing exquisite artworks from renowned galleries worldwide. Explore the rich cultural heritage and artistic expressions found in each gallery's location. From vibrant city galleries to serene rural spaces, the Gallery feature transports you to diverse art scenes. Gain insight into the requirements and entry details, ensuring a seamless experience when visiting. Immerse yourself in the beauty of art, uncovering inspiration and creativity at every step. Let the Gallery feature ignite your passion for art and expand your artistic horizons."
+    "description": "The Gallery feature in ArtFinderX offers a captivating visual journey through the world of art. 
+    Discover stunning images showcasing exquisite artworks from renowned galleries worldwide. 
+    Explore the rich cultural heritage and artistic expressions found in each gallery's location. 
+    From vibrant city galleries to serene rural spaces, the Gallery feature transports you to diverse art scenes. 
+    Gain insight into the requirements and entry details, ensuring a seamless experience when visiting. 
+    Immerse yourself in the beauty of art, uncovering inspiration and creativity at every step. 
+    Let the Gallery feature ignite your passion for art and expand your artistic horizons."
   },
   {
-    "name": "ArtFinder Agent",
-    "description": "The ArtFinder Agent feature empowers gallery owners and art enthusiasts to curate and manage their gallery profiles with ease. As an agent, you can create a personalized gallery profile, showcasing your collection of exquisite artworks. Sign in to your agent account and effortlessly update the gallery's images, ensuring it remains dynamic and captivating for visitors. Showcase the gallery's unique location, highlighting its artistic ambiance. With the ArtFinder Agent feature, you have the power to add new images that capture the essence of your gallery while seamlessly removing outdated ones. Take control of your gallery's online presence, captivate art enthusiasts, and elevate the visibility of your artistic space."
+    "name": "ArtFinderX Agent",
+    "description": "The ArtFinderX Agent feature empowers gallery owners and art enthusiasts to curate and manage their gallery profiles with ease. As an agent, you can create a personalized gallery profile, showcasing your collection of exquisite artworks. 
+    Sign in to your agent account and effortlessly update the gallery's images, ensuring it remains dynamic and captivating for visitors. 
+    Showcase the gallery's unique location, highlighting its artistic ambiance. 
+    With the ArtFinderX Agent feature, you have the power to add new images that capture the essence of your gallery while seamlessly removing outdated ones. Take control of your gallery's online presence, captivate art enthusiasts, and elevate the visibility of your artistic space."
   }
 ]
