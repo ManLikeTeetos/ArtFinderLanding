@@ -146,7 +146,7 @@ function LandingPage() {
                 {/* Featured Section */}
                 <Box mt={16} mx={10} id="features">
                     <Heading as="h4" fontSize="4xl" mb={4} textAlign="center" color="#3182ce">
-                        Art Finder Features
+                        ArtFinderX Features
                     </Heading>
                     <Heading as="h1" fontSize="xl" textAlign="center" fontWeight="light">
                         Here are some of the exciting features of ArtFinderX
@@ -278,7 +278,7 @@ function LandingPage() {
                         </Box>
                     </Flex>
                     <Text fontSize="sm" textAlign="center" mt={2} color="gray.500">
-                        &copy; 2023 Your Name. All rights reserved. | Created by Ade-ojo Toluwanimi
+                        &copy; 2023 ArtFinderX. All rights reserved. | Created by Toluwanimi Ade-ojo
                     </Text>
                 </Box>
 
