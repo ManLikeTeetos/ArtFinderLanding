@@ -102,6 +102,7 @@ function LandingPage() {
                                 {introData[0].desc}
                             </Text>
                             <Button 
+                            as="a"
                             colorScheme="blue" 
                             size="lg" 
                             mt={12} 
