@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ArtFinderLanding/static/css/main.e6c13ad2.css",
-    "main.js": "/ArtFinderLanding/static/js/main.ccc00404.js",
+    "main.js": "/ArtFinderLanding/static/js/main.b91504c2.js",
     "static/js/787.b7d4b583.chunk.js": "/ArtFinderLanding/static/js/787.b7d4b583.chunk.js",
     "static/media/afgallery.png": "/ArtFinderLanding/static/media/afgallery.ef05d3b75ce9a8ac0853.png",
     "static/media/banner.jpg": "/ArtFinderLanding/static/media/banner.ed284ac8338478f0d2da.jpg",
@@ -10,11 +10,11 @@
     "static/media/update.jpg": "/ArtFinderLanding/static/media/update.70d4703c2a79d54f5d33.jpg",
     "index.html": "/ArtFinderLanding/index.html",
     "main.e6c13ad2.css.map": "/ArtFinderLanding/static/css/main.e6c13ad2.css.map",
-    "main.ccc00404.js.map": "/ArtFinderLanding/static/js/main.ccc00404.js.map",
+    "main.b91504c2.js.map": "/ArtFinderLanding/static/js/main.b91504c2.js.map",
     "787.b7d4b583.chunk.js.map": "/ArtFinderLanding/static/js/787.b7d4b583.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.ccc00404.js"
+    "static/js/main.b91504c2.js"
   ]
 }
