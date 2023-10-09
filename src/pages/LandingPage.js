@@ -101,7 +101,13 @@ function LandingPage() {
                             <Text fontSize={{ base: "xl", md: "2xl" }} mb={4} fontWeight="light">
                                 {introData[0].desc}
                             </Text>
-                            <Button colorScheme="blue" size="lg" mt={12}>
+                            <Button 
+                            colorScheme="blue" 
+                            size="lg" 
+                            mt={12} 
+                            href="https://artfinderx.com" 
+                            target="_blank"
+                            rel="noopener noreferrer">
                                 Explore Artfinder
                             </Button>
                         </Box>
