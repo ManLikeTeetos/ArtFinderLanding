@@ -110,7 +110,7 @@ function LandingPage() {
                             href={externalUrl} 
                             target="_blank"
                             rel="noopener noreferrer">
-                                Explore Artfinder
+                                Explore ArtFinderX
                             </Button>
                         </Box>
                     </Flex>
@@ -135,7 +135,7 @@ function LandingPage() {
                             mt={12}
                             target="_blank"
                             rel="noopener noreferrer">
-                                Explore Artfinder
+                                Explore ArtFinderX
                             </Button>
                         </Box>
                     </Flex>
@@ -149,7 +149,7 @@ function LandingPage() {
                         Art Finder Features
                     </Heading>
                     <Heading as="h1" fontSize="xl" textAlign="center" fontWeight="light">
-                        Here are some of the exciting features of ArtFinder
+                        Here are some of the exciting features of ArtFinderX
                     </Heading>
                     <Flex direction="column" mt={8}>
                         {/* Feature 1 */}
@@ -203,7 +203,7 @@ function LandingPage() {
                 {/* About Section */}
                 <Box mt={16} mx={10} textAlign="center">
                     <Heading as="h2" fontSize={{base: '2xl', md: '3xl'}} mb={4}>
-                        About ArtFinder
+                        About ArtFinderX
                     </Heading>
                 </Box>
                 <Box mt={16} mx={10} id="about" minHeight="400px" display="flex"
@@ -245,7 +245,7 @@ function LandingPage() {
                         How it Works
                     </Heading>
                     <Heading as="h1" fontSize={{base: 'lg', md: 'xl'}} textAlign="center" fontWeight="light">
-                        Watch a quick video to see how Artfinder helps you navigate the Art World.
+                        Watch a quick video to see how ArtFinderX helps you navigate the Art World.
                     </Heading>
                     <Box mt={16} textAlign="center">
                         <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
