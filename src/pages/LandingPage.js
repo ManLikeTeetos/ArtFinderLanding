@@ -16,6 +16,7 @@ function LandingPage() {
     const [intro, setIntro] = useState([]);
     const [isMenuOpen, setMenuOpen] = useState(false);
     const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
+    const externalUrl = 'https://artfinderx.com';
 
     useEffect(() => {
         // Simulate fetching features data from an API
@@ -106,7 +107,7 @@ function LandingPage() {
                             colorScheme="blue" 
                             size="lg" 
                             mt={12} 
-                            href="https://artfinderx.com" 
+                            href={externalUrl} 
                             target="_blank"
                             rel="noopener noreferrer">
                                 Explore Artfinder
@@ -126,7 +127,14 @@ function LandingPage() {
                             <Text fontSize="xl" mb={4} fontWeight="light">
                                 {introData[0].desc}
                             </Text>
-                            <Button colorScheme="blue" size="lg" mt={12}>
+                            <Button 
+                            as="a"
+                            href={externalUrl}
+                            colorScheme="blue" 
+                            size="lg" 
+                            mt={12}
+                            target="_blank"
+                            rel="noopener noreferrer">
                                 Explore Artfinder
                             </Button>
                         </Box>
